@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Vaya movie
+    body 
+        h1 ¿Qué movie quieres?
+        form(action="/", method="POST") 
+            label(for="movie")  Introduce el nombre
+            input(type="text", name="movie")
+            button#btn_name(type="button") ¡Busca por nombre!
+  
